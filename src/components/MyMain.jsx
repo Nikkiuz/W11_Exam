@@ -1,4 +1,5 @@
 import NewRadio from './sections/NewRadio'
+import NewReleases from './sections/NewReleases'
 import Novita from './sections/Novita'
 
 const MyMain = () => {
@@ -6,6 +7,7 @@ const MyMain = () => {
     <>
       <Novita />
       <NewRadio />
+      <NewReleases />
     </>
   )
 }

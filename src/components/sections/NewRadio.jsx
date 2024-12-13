@@ -11,7 +11,7 @@ const NewRadio = () => {
       </h4>
       <Row>
         <Col>
-          <Card>
+          <Card className="border-0">
             <Card.Img src="public/assets/images/2a.png" />
             <Card.Body>
               <Card.Text>Pròlogo con Abuelo</Card.Text>
@@ -19,7 +19,7 @@ const NewRadio = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card className="border-0">
             <Card.Img src="public/assets/images/2b.png" />
             <Card.Body>
               <Card.Text>The Wanderer</Card.Text>
@@ -27,23 +27,23 @@ const NewRadio = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card className="border-0">
             <Card.Img src="public/assets/images/2c.png" />
             <Card.Body>
               <Card.Text>Michael Bublé & Carly Pearce</Card.Text>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card>
+        <Col className="d-none d-lg-block">
+          <Card className="border-0">
             <Card.Img src="public/assets/images/2d.png" />
             <Card.Body>
               <Card.Text>Stephan Moccio: The Zane Lowe Interview</Card.Text>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
-          <Card>
+        <Col className="d-none d-lg-block">
+          <Card className="border-0">
             <Card.Img src="public/assets/images/2e.png" />
             <Card.Body>
               <Card.Text>Chart Spotlight: Julia Michaels</Card.Text>
