@@ -8,10 +8,10 @@ const MyFooter = () => {
   return (
     <Container className=" my-5">
       <Row>
-        <Col xs={1}>
+        <Col xs={1} className="me-0">
           <p>Italia</p>
         </Col>
-        <Col xs={10}>
+        <Col xs={10} className=" ms-0 text-start">
           <p>| English(UK)</p>
         </Col>
       </Row>
