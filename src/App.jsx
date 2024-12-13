@@ -9,7 +9,7 @@ import MyFooter from './components/Myfooter'
 function App() {
   return (
     <>
-      <Row className='bg-dark text-bg-dark'>
+      <Row className="bg-black text-bg-black text-white">
         <Col className="d-none d-md-block" md={2}>
           <Sidebar />
         </Col>

@@ -7,7 +7,7 @@ const Novita = () => {
       <hr />
       <Row className="g-1">
         <Col>
-          <Card className="h-100 border-0">
+          <Card className="h-100 border-0 bg-dark text-white">
             <Card.Body>
               <Card.Text className="fs-6">NUOVA STAZIONE RADIO</Card.Text>
               <Card.Text className="fs-3">
@@ -18,7 +18,7 @@ const Novita = () => {
           </Card>
         </Col>
         <Col>
-          <Card className="h-100 border-0">
+          <Card className="h-100 border-0 bg-dark text-white">
             <Card.Body>
               <Card.Text className="fs-6">NUOVA STAZIONE RADIO</Card.Text>
               <Card.Text className="fs-3">

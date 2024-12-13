@@ -23,14 +23,13 @@ const MyFooter = () => {
           </p>
         </Col>
       </Row>
-
       <Row>
         <Col className=" d-md-flex">
-          <p className="mx-1">Condizioni dei servizi internet</p>
-          <p className="mx-1">Apple Music e privacy</p>
-          <p className="mx-1">Avviso sui cookie</p>
-          <p className="mx-1">Supporto</p>
-          <p className="mx-1">Feedback</p>
+          <p className="mx-1 ms-0">Condizioni dei servizi internet</p>
+          <p className="mx-1 ms-0">Apple Music e privacy</p>
+          <p className="mx-1 ms-0">Avviso sui cookie</p>
+          <p className="mx-1 ms-0">Supporto</p>
+          <p className="mx-1 ms-0">Feedback</p>
         </Col>
       </Row>
     </Container>
