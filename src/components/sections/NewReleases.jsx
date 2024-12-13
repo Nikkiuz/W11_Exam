@@ -33,14 +33,14 @@ const NewReleases = () => {
   console.log(data)
 
   return (
-    <Container>
+    <Container className="mb-4">
       <h4>
         Nuove uscite
         <span>
           <i className="bi bi-chevron-right"></i>
         </span>
       </h4>
-      <Row className="d-md-none">
+      <Row className="d-md-none g-3">
         {data.length !== 0 &&
           data.slice(0, 6).map((data) => {
             return (
@@ -50,7 +50,7 @@ const NewReleases = () => {
             )
           })}
       </Row>
-      <Row className="d-none d-md-flex">
+      <Row className="d-none d-md-flex g-3">
         {data.length !== 0 &&
           data.slice(0, 12).map((data) => {
             return (

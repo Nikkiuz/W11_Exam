@@ -2,7 +2,7 @@ import { Container, Form, InputGroup } from 'react-bootstrap'
 
 const Sidebar = () => {
   return (
-    <Container>
+    <Container className="ms-3">
       <div className="mt-2 text-white">
         <img src="public/assets/logos/music.svg" alt="musiclogo" />
       </div>
@@ -12,7 +12,6 @@ const Sidebar = () => {
             <i className="bi bi-search"></i>
           </InputGroup.Text>
           <Form.Control
-            className="placeholderColor"
             placeholder="Cerca"
             aria-label="Recipient's username"
             aria-describedby="basic-addon2"
